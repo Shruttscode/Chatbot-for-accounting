@@ -51,7 +51,7 @@ To start the bot, the PDF document needs to be processed and loaded into a vecto
 
 Execute the main script to start the bot:
 ```bash
-streamlit run chatbot.py
+python -m streamlit run app.py
 ```
 
 ### 3. Interacting with the Bot
@@ -60,7 +60,7 @@ Once the Streamlit server is running, you can interact with the bot through the 
 
 ## File Structure
 
-- `chatbot.py`: Main script for setting up and running the chatbot.
+- `app.py`: Main script for setting up and running the chatbot.
 - `requirements.txt`: List of required Python packages.
 - `.env`: Environment file to store sensitive information like API keys.
 
@@ -92,16 +92,5 @@ Place your PDF document in the appropriate path (e.g., `D:\hackathon\module-7-fi
 - Verify the environment variables are correctly set in the `.env` file.
 - Check the file paths for the PDF document and vector database directory.
 
-Feel free to customize the setup and configuration based on your specific requirements. Happy coding!
-```
-And the `requirements.txt` file:
+Feel free to customize the setup and configuration based on your specific requirements.
 
-```text
-streamlit
-langchain
-langchain-google-genai
-google-generativeai
-python-dotenv
-```
-
-Make sure to place your PDF document in the appropriate path and update the path in the script accordingly.
