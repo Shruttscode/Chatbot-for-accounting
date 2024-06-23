@@ -1,5 +1,4 @@
 # Chatbot-for-accounting
-# AI Chatbot With ChatGPT API
 
 ## Presenting to you, *AI Chatbot based on RAG*!
 
